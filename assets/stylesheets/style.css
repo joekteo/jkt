@@ -204,6 +204,11 @@ h2 {
   font-size: 70px;
   letter-spacing: 3.5px;
   margin-bottom: 35px;
+  z-index: 2;
+}
+
+#newspaper-icon {
+  z-index: 1;
 }
 
 .experience-container {
@@ -219,16 +224,20 @@ h2 {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  padding-bottom: 80px;
+  z-index: 0;
 }
 
 .rails-girls {
   height: auto;
   padding: 0 60px 70px 60px;
+  z-index: 2;
 }
 
 .cyberport {
   height: auto;
   padding: 0 60px 70px 60px;
+  z-index: 2;
 }
 
 /*** Education ***/
