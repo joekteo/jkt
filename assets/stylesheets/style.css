@@ -177,13 +177,6 @@ h2 {
   text-align: left;
 }
 
-@media screen and (max-width: 1116px) {
-  .greetings-container p {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-
 /*** Experience ***/
 .experience-title {
   font-size: 40px;
@@ -310,44 +303,6 @@ h2 {
   height: auto;
   padding: 0 60px 140px 60px;
   width: 400px;
-}
-
-@media screen and (max-width: 1116px) {
-  .education-container {
-    align-content: center;
-    align-items: center;
-    background: #202121;
-    color: #fff;
-    display: flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: -webkit-flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-  .education-container p {
-    padding-bottom: 18px;
-  }
-
-  .ec-item-1 {
-    height: 50%;
-    padding: 0 60px 0 60px;
-    width: 80px;
-  }
-
-  .ec-item-2 {
-    height: auto;
-    padding: 0 60px 0 60px;
-    width: 400px;
-  }
-
-  .ec-item-3 {
-    height: auto;
-    padding: 0 60px 0 60px;
-    width: 400px;
-  }
 }
 
 /*** Projects ***/
@@ -497,6 +452,55 @@ h2 {
   text-align:center;
 }
 
+/*** Media Screen ***/
+/*@media screen and (max-width: 1070px) {
+  .big-container {
+    background-image: none;
+  }
+}*/
+@media screen and (max-width: 1116px) {
+  .greetings-container p {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .education-container {
+    align-content: center;
+    align-items: center;
+    background: #202121;
+    color: #fff;
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .education-container p {
+    padding-bottom: 18px;
+  }
+
+  .ec-item-1 {
+    height: 50%;
+    padding: 0 60px 0 60px;
+    width: 80px;
+  }
+
+  .ec-item-2 {
+    height: auto;
+    padding: 0 60px 0 60px;
+    width: 400px;
+  }
+
+  .ec-item-3 {
+    height: auto;
+    padding: 0 60px 0 60px;
+    width: 400px;
+  }
+}
+
 @media screen and (min-width: 399px) {
   .rails-girls {
     height: 47px;
@@ -559,12 +563,5 @@ h2 {
   .pc-item-6 {
     padding: 30px;
     margin: 0 auto;
-  }
-}
-
-/*** Media Screen **
-/*@media screen and (max-width: 1070px) {
-  .big-container {
-    background-image: none;
   }
 }
